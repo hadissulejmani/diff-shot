@@ -1,0 +1,19 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "A tool for temporary saving differences between a file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadissulejmani/diff-shot.git"
+  },
+  "author": "Hadis Sulejmani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hadissulejmani/diff-shot/issues"
+  },
+  "homepage": "https://github.com/hadissulejmani/diff-shot#readme"
+}
