@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Diff</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div id="settings">
+        <h1>Diff</h1>
+        <label><input type="radio" name="diff_type" value="diffChars" checked> Chars</label>
+        <label><input type="radio" name="diff_type" value="diffWords"> Words</label>
+        <label><input type="radio" name="diff_type" value="diffLines"> Lines</label>
+    </div>
+
+    <a href="https://github.com/kpdecker/jsdiff" class="source">github.com/kpdecker/jsdiff</a>
+
+    <table>
+        <tr>
+            <td contenteditable="true" id="a">restaurant</td>
+            <td contenteditable="true" id="b">aura</td>
+            <td>
+                <pre id="result"></pre>
+            </td>
+        </tr>
+    </table>
+
+    <script src="diff.js"></script>
+    <script defer src="index.js"></script>
+</body>
+
+</html>
